@@ -1,6 +1,6 @@
 try {
     if(jsQR){
-        console.log("it exists")
+        //console.log("jsQR.js exists, it should work now")
     }
 } catch(error) {
     console.error("we need jsQR.js for our app.js to function (dependency)")
