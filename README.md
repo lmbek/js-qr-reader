@@ -11,3 +11,6 @@ Most of this code is of license:
 MIT License
 Copyright (c) 2017 Nimiq, danimoh
 Source code at: https://github.com/nimiq/qr-scanner/tree/master
+
+## Further development planned:
+Planning to add a button to toggle the camera stream being showed in a canvas or image
