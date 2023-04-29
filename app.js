@@ -1,9 +1,11 @@
 try {
     if(jsQR){
         //console.log("jsQR.js exists, it should work now")
+    } else {
+        console.warn("jsQR.js could not be found");
     }
 } catch(error) {
-    console.error("we need jsQR.js for our app.js to function (dependency)")
+    console.error("we need jsQR.js for our app.js to function (dependency)");
 }
 
 const video = document.createElement("video");
